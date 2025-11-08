@@ -1,0 +1,31 @@
+[config]
+backend = "material"
+export_formats = ["scss", "json", "css"]
+
+[config.wallpaper]
+set = true
+command = "swww"
+arguments = ["img", "--transition-type", "center"]
+
+[templates.eww]
+input_path = "~/.config/matugen/templates/colors.scss"
+output_path = "~/.config/eww/colors.scss"
+export_format = "scss"
+# post_hook= 'eww reload'
+
+[templates.waybar]
+input_path = "~/.config/matugen/templates/colors.css"
+output_path = "~/.config/waybar/colors.css"
+post_hook = "pkill -SIGUSR2 waybar"
+
+[templates.hyprland]
+input_path  = "./templates/hyprland-colors.conf"
+output_path = "~/.config/hypr/config/colors.conf"
+
+[templates.kitty]
+input_path  = "./templates/kitty-colors.conf"
+output_path = "~/.config/kitty/colors.conf"
+
+
+
+
