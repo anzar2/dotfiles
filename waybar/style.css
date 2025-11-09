@@ -4,17 +4,13 @@
     /* `otf-font-awesome` is required to be installed for icons */
     font-family: FontAwesome, Roboto, Helvetica, Arial, sans-serif, AdwaitaMono Nerd Font;
     font-size: 13px;
-    border-radius: 6px;
+    border-radius: 3px;
     padding: 0 3px;
 }
 
 window#waybar {
     background-color: transparent;
     color: @primary;
-}
-
-.hyprland-window {
-    color: black;
 }
 
 #waybar>box {
@@ -24,11 +20,13 @@ window#waybar {
 
 #workspaces {
     padding: 0px;
+    
 }
 
 #workspaces>button {
     color: @primary;
     padding: 3px;
+    border: none;
 }
 
 #workspaces>button.active {
@@ -39,7 +37,6 @@ window#waybar {
 #workspaces>button:hover {
     color: @on_background;
     background: @inverse_on_surface;
-
 }
 
 #workspaces label {
@@ -69,13 +66,13 @@ window#waybar {
 }
 
 #network {
-    padding: 6px;
+    padding: 0px 8px 0px 6px;
     font-size: 16px;
 }
 
 #custom-reload-waybar {
     font-size: 14px;
-    padding: 0 6px;
+    padding: 0 3px 0px 0px;
 }
 
 #clock:hover,
@@ -89,4 +86,6 @@ window#waybar {
 #tray {
     background-color: @inverse_on_surface;
     padding: 0px 3px;
+    border-bottom: 0.6px solid @primary;
+    border-radius: 3px;
 }

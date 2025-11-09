@@ -115,11 +115,11 @@
             " ",
             " "
         ],
-        "on-click": "eww open --toggle volume",
+        "on-click": "pavucontrol",
         "tooltip-format": ""
     },
     "custom/reload-waybar": {
-        "format": "",
+        "format": "  ",
         "on-click": "killall waybar && waybar &",
         "tooltip-format": "Reinicia waybar"
     },
