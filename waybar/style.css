@@ -2,7 +2,7 @@
 
 * {
     /* `otf-font-awesome` is required to be installed for icons */
-    font-family: FontAwesome, Roboto, Helvetica, Arial, sans-serif;
+    font-family: FontAwesome, Roboto, Helvetica, Arial, sans-serif, AdwaitaMono Nerd Font;
     font-size: 13px;
     border-radius: 6px;
     padding: 0 3px;
@@ -11,6 +11,10 @@
 window#waybar {
     background-color: transparent;
     color: @primary;
+}
+
+.hyprland-window {
+    color: black;
 }
 
 #waybar>box {
