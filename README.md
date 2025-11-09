@@ -20,4 +20,8 @@ Se necesitan los siguientes paquetes (solo arch based)
 
 - mako
 
-- 
+- grim
+
+- slurp
+
+- swappy

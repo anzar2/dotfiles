@@ -10,7 +10,7 @@
 
 window#waybar {
     background-color: transparent;
-    color: @primary;
+    color: @on_primary_container;
 }
 
 #waybar>box {
@@ -20,19 +20,22 @@ window#waybar {
 
 #workspaces {
     padding: 0px;
-    
+}
+
+#window > label{
+    font-weight: bolder;
+    font-size: 13px;
 }
 
 #workspaces>button {
     color: @primary;
-    padding: 3px;
+    padding: 0px 3px;
     border: none;
 }
 
 #workspaces>button.active {
     color: @on_background;
     background: @inverse_on_surface;
-    border-bottom: 1px solid @primary;
 }
 
 #workspaces>button:hover {
@@ -41,9 +44,8 @@ window#waybar {
 }
 
 #workspaces label {
-    font-size: 12px;
-    margin: 0px;
-     font-weight: 900;
+    font-size: 12.5px;
+    font-weight: bolder;
 }
 
 .modules-left,
@@ -56,20 +58,28 @@ window#waybar {
     font-size: 14px;
 }
 
-#clock,
-#pulseaudio {
-    padding: 6px;
-}
-
 #cpu,
 #memory {
     padding: 6px;
-    margin: 0px 6px;
+}
+
+#battery {
+    padding: 0px 3px 0px 6px;
+    font-size: 16px;
+}
+
+#battery.critical,
+#battery.low {
+    color: @error;
+}
+
+#battery.charging {
+    padding: 0px 0px 0px 6px;
 }
 
 #network {
-    padding: 0px 8px 0px 6px;
-    font-size: 16px;
+    padding: 0px 12px 0px 3px;
+    font-size: 14px;
 }
 
 #custom-reload-waybar {
@@ -77,6 +87,7 @@ window#waybar {
     padding: 0 3px 0px 0px;
 }
 
+#battery:hover,
 #clock:hover,
 #network:hover,
 #pulseaudio:hover,
@@ -85,9 +96,13 @@ window#waybar {
     color: @on_background;
 }
 
+#custom-separator {
+    padding: 0px 6px;
+}
+
 #tray {
     background-color: @inverse_on_surface;
     padding: 0px 3px;
-    border-bottom: 0.6px solid @primary;
+    border-bottom: 1.5px solid @on_secondary_container;
     border-radius: 3px;
 }

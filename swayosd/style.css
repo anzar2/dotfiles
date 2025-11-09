@@ -2,6 +2,7 @@
 
 window#osd {
   border: none;
+  border-radius: 3px;
   background: alpha(@background, 1);
 }
 
@@ -14,7 +15,7 @@ window#osd #container {
 }
 
 window#osd image {
-  color: @primary;
+  color: @on_primary_container;
   min-width: 10px;
 }
 
@@ -30,11 +31,11 @@ window#osd progressbar {
 }
 
 window#osd trough {
-  background: alpha(@primary, 0.5);
+  background: alpha(@on_primary_container, 0.5);
   border-radius: 0px;
 }
 
 window#osd progress {
   border-radius: 0px;
-  background: @primary;
+  background: @on_primary_container;
 }
