@@ -125,6 +125,11 @@
     },
     "hyprland/workspaces": {
         "on-scroll-up": "hyprctl dispatch workspace e+1",
-        "on-scroll-down": "hyprctl dispatch workspace e-1"
+        "on-scroll-down": "hyprctl dispatch workspace e-1",
+        "on-click": ""
+    },
+    "hyprland/window": {
+        "format": "{title}",
+        "max-length": 30
     }
 }

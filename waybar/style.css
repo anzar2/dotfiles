@@ -32,6 +32,7 @@ window#waybar {
 #workspaces>button.active {
     color: @on_background;
     background: @inverse_on_surface;
+    border-bottom: 1px solid @primary;
 }
 
 #workspaces>button:hover {
@@ -42,6 +43,7 @@ window#waybar {
 #workspaces label {
     font-size: 12px;
     margin: 0px;
+     font-weight: 900;
 }
 
 .modules-left,
