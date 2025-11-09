@@ -18,6 +18,6 @@ anchor=top-center
 
 
 # Tema
-background-color=#141318
-text-color=#c9bfff
-border-color=#c9bfff
+background-color={{colors.background.default.hex}}
+text-color={{colors.primary.default.hex}}
+border-color={{colors.primary.default.hex}}
