@@ -1,6 +1,6 @@
 # Hyprfiles
 
-Se necesitan los siguientes paquetes (solo arch based)
+dependencias:
 
 - eww
 
