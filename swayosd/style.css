@@ -1,0 +1,40 @@
+@import "./colors.css";
+
+window#osd {
+  border: none;
+  background: alpha(@background, 1);
+}
+
+window {
+  margin-left: 65%;
+}
+
+window#osd #container {
+  margin: 16px;
+}
+
+window#osd image {
+  color: @primary;
+  min-width: 10px;
+}
+
+window#osd progressbar:disabled,
+window#osd image:disabled {
+  opacity: 0.5;
+}
+
+window#osd progressbar {
+  min-height: 6px;
+  background: transparent;
+  border: none;
+}
+
+window#osd trough {
+  background: alpha(@primary, 0.5);
+  border-radius: 0px;
+}
+
+window#osd progress {
+  border-radius: 0px;
+  background: @primary;
+}

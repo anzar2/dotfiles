@@ -27,5 +27,10 @@ input_path = "./templates/mako-config"
 output_path = "~/.config/mako/config"
 post_hook = "killall mako && mako&"
 
+[templates.swayosd]
+input_path = "./templates/waybar-colors.css"
+output_path = "~/.config/swayosd/colors.css"
+post_hook = "killall swayosd-server && swayosd-server&"
+
 
 
