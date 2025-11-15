@@ -9,18 +9,10 @@ return {
   { "elkowar/yuck.vim" },
   {
     "neovim/nvim-lspconfig",
-    opts = function(_, opts)
+    opts = function()
       local lspconfig = require("lspconfig")
-      lspconfig.gdscript.setup({
-        name = "gdscript",
-        cmd = { "nc", "localhost", "6005" },
-        root_dir = function()
-          return vim.fn.getcwd()
-        end,
-        on_attach = function(client, bufnr)
-          vim.notify("Connected to Godot LSP", vim.log.levels.INFO)
-        end,
-      })
+      lspconfig.gdscript.setup({})
+      lspconfig.qmlls.setup({})
     end,
   },
   {

@@ -24,7 +24,8 @@
         "network",
         "battery",
         "custom/separator",
-        "clock"
+        "clock",
+        "custom/notifications"
     ],
     "keyboard-state": {
         "numlock": true,
@@ -134,6 +135,10 @@
         "on-scroll-up": "hyprctl dispatch workspace e+1",
         "on-scroll-down": "hyprctl dispatch workspace e-1",
         "on-click": ""
+    },
+    "custom/notifications": {
+        "format": "",
+        "on-click": "swaync-client -t"
     },
     "hyprland/window": {
         "format": "{title}",

@@ -5,7 +5,7 @@
     font-family: FontAwesome, Roboto, Helvetica, Arial, sans-serif, AdwaitaMono Nerd Font;
     font-size: 13px;
     border-radius: 3px;
-    padding: 0 3px;
+    padding: 0 0px;
 }
 
 window#waybar {
@@ -50,7 +50,7 @@ window#waybar {
 
 .modules-left,
 .modules-right {
-    padding: 0px 18px;
+    padding: 0px 6px;
 }
 
 #clock {
@@ -61,6 +61,11 @@ window#waybar {
 #cpu,
 #memory {
     padding: 6px;
+}
+
+#custom-notifications{
+    padding: 0px 10px 2px 8px;
+    font-size: 14px;
 }
 
 #battery {
@@ -87,6 +92,7 @@ window#waybar {
     padding: 0 3px 0px 0px;
 }
 
+#custom-notifications:hover,
 #battery:hover,
 #clock:hover,
 #network:hover,
