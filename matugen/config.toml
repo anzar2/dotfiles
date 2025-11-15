@@ -22,10 +22,10 @@ output_path = "~/.config/hypr/config/colors.conf"
 input_path  = "./templates/kitty-colors.conf"
 output_path = "~/.config/kitty/colors.conf"
 
-[templates.mako]
-input_path = "./templates/mako-config"
-output_path = "~/.config/mako/config"
-post_hook = "killall mako && mako&"
+# [templates.mako]
+# input_path = "./templates/mako-config"
+# output_path = "~/.config/mako/config"
+# post_hook = "killall mako && mako&"
 
 [templates.swayosd]
 input_path = "./templates/waybar-colors.css"
