@@ -4,7 +4,7 @@ command = "swww"
 arguments = ["img", "--transition-type", "center"]
 
 [templates.eww]
-input_path = "~/.config/matugen/templates/colors.scss"
+input_path = "~/.config/matugen/templates/m_colors.scss"
 output_path = "~/.config/eww/colors.scss"
 export_format = "scss"
 # post_hook= 'eww reload'
