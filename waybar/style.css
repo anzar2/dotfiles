@@ -64,9 +64,10 @@ window#waybar {
     padding: 6px;
 }
 
+#custom-swaync-notification,
 #custom-notifications {
     padding: 0px 10px 2px 8px;
-    font-size: 14px;
+    font-size: 12px;
 }
 
 #battery {
@@ -89,7 +90,7 @@ window#waybar {
 }
 
 #pulseaudio {
-    padding: 0px 8px 0px 6px;
+    padding: 0px 3px 0px 6px;
 }
 
 #custom-reload-waybar {
@@ -98,6 +99,7 @@ window#waybar {
 }
 
 #custom-notifications:hover,
+#custom-swaync-notification:hover,
 #battery:hover,
 #clock:hover,
 #network:hover,

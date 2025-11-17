@@ -32,6 +32,8 @@ input_path = "./templates/waybar-colors.css"
 output_path = "~/.config/swayosd/colors.css"
 post_hook = "killall swayosd-server && swayosd-server&"
 
-
-
+[templates.swaync]
+input_path = "./templates/waybar-colors.css"
+output_path = "~/.config/swaync/colors.css"
+post_hook = "killall swaync && swaync&"
 
