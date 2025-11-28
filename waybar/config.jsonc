@@ -15,6 +15,8 @@
         "hyprland/window"
     ],
     "modules-right": [
+        "hyprland/language",
+        "custom/separator",
         "cpu",
         "memory",
         "custom/separator",
@@ -27,15 +29,6 @@
         "clock",
         "custom/swaync-notification"
     ],
-    "keyboard-state": {
-        "numlock": true,
-        "capslock": true,
-        "format": "{name} {icon}",
-        "format-icons": {
-            "locked": "",
-            "unlocked": ""
-        }
-    },
     "idle_inhibitor": {
         "format": "{icon}",
         "format-icons": {
@@ -186,5 +179,10 @@
             "|"
         ]
         // "ignored-players": ["firefox"]
+    },
+    "hyprland/language": {
+        "format": "{}",
+        "format-es": "es",
+        "format-latam": "lat"
     }
 }
