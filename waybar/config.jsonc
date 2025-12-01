@@ -104,7 +104,7 @@
         "bat": "BAT2"
     },
     "network": {
-        "format-wifi": "",
+        "format-wifi": " ",
         "format-ethernet": "󱡶",
         "format-disconnected": "disconnected",
         "on-click": "notify-send \"Esto deberia hacer algo pulento pero no lo hace\""
