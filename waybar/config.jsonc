@@ -15,8 +15,6 @@
         "hyprland/window"
     ],
     "modules-right": [
-        "hyprland/language",
-        "custom/separator",
         "cpu",
         "memory",
         "custom/separator",
@@ -179,10 +177,5 @@
             "|"
         ]
         // "ignored-players": ["firefox"]
-    },
-    "hyprland/language": {
-        "format": "{}",
-        "format-es": "es",
-        "format-latam": "lat"
     }
 }

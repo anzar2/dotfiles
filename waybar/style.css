@@ -15,7 +15,7 @@ window#waybar {
 
 #waybar>box {
     background-color: @background;
-    margin: 3px 6px 0px 6px;
+    margin: 3px 6px 3px 6px;
 }
 
 #workspaces {
@@ -24,7 +24,7 @@ window#waybar {
 
 #window>label {
     font-weight: bolder;
-    font-size: 13px;
+    font-size: 14px;
 }
 
 #workspaces>button {
@@ -44,7 +44,7 @@ window#waybar {
 }
 
 #workspaces label {
-    font-size: 12.5px;
+    font-size: 13.5px;
     font-weight: bolder;
 }
 
@@ -86,7 +86,7 @@ window#waybar {
 
 #network {
     padding: 0px 8px 0px 6px;
-    font-size: 14px;
+    font-size: 16px;
 }
 
 #pulseaudio {
