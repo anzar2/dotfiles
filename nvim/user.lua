@@ -7,6 +7,7 @@
 ---@type LazySpec
 return {
   { "elkowar/yuck.vim" },
+  { "mg979/vim-visual-multi" },
   {
     "neovim/nvim-lspconfig",
     opts = function()
